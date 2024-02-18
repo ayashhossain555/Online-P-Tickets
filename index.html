@@ -83,8 +83,8 @@
         <!-- Offer Section starts here -->
         <section class="my-40 text-center">
             <h1 class="text-3xl font-bold text-black mb-10">Best offers for you</h1>
-            <div class="flex items-center justify mb-14 center">
-                <div class="rounded-2xl w-1/2 m-8 bg-[#FFBF0F]">
+            <div class="flex flex-col lg:flex-row items-center justify mb-14 center">
+                <div class="rounded-2xl w-full lg:w-1/2 m-8 bg-[#FFBF0F]">
                     <div class="flex">
                         <div class="flex flex-col justify-center w-3/5 p-8 text-left">
                             <h2 class="text-3xl font-bold mt-4 mb-2">15% OFF</h2>
@@ -98,7 +98,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="rounded-2xl w-1/2 m-8 bg-[#F78C9C]">
+                <div class="rounded-2xl w-full lg:w-1/2 m-8 bg-[#F78C9C]">
                     <div class="flex">
                         <div class="flex flex-col justify-center w-3/5 p-8 text-left">
                             <h2 class="text-3xl font-bold mt-4 mb-2">20% OFF</h2>
@@ -145,10 +145,10 @@
                             <p>Departure Time</p>
                             <p class="font-bold">9:00 PM</p>
                         </div>
-                        <div class="flex items-center justify-between py-4">
-                            <p class="bg-gray-200 p-4 rounded-lg font-semibold">Boarding Point - Laxmipur</p>
-                            <p class="bg-gray-200 p-4 rounded-lg font-semibold">Dropping Point - Bogura</p>
-                            <p class="bg-gray-200 p-4 rounded-lg font-semibold">Est. Time - 11 Hour</p>
+                        <div class="flex flex-col sm:gap-4 lg:flex-row text-center items-center justify-between py-4">
+                            <p class="bg-gray-200 sm:w-full p-4 rounded-lg font-semibold">Boarding Point - Laxmipur</p>
+                            <p class="bg-gray-200 sm:w-full p-4 rounded-lg font-semibold">Dropping Point - Bogura</p>
+                            <p class="bg-gray-200 sm:w-full p-4 rounded-lg font-semibold">Est. Time - 11 Hour</p>
                         </div>
                     </div>
                 </div>
@@ -161,9 +161,9 @@
             </div>
             <!-- Single Ticket Price ends here -->
             <!-- Seat Plan starts here -->
-            <div id="booking" class="rounded-2xl bg-white flex mt-8 pb-8 mb-16">
+            <div id="booking" class="rounded-2xl bg-white flex flex-col lg:flex-row mt-8 pb-8 mb-16">
                 <!-- Bus Seat Plan -->
-                <div class="w-7/12">
+                <div class="w-full lg:w-7/12">
                     <div class="p-6 rounded-2xl divide-y divide-dashed">
                         <div class="pb-4">
                             <p class="text-2xl font-semibold">Select Your Seat</p>
@@ -177,7 +177,7 @@
                         </div>
                     </div>
                     <!-- ---------------------------------------------------------------------- -->
-                    <div class="flex flex-col lg:flex-row">
+                    <div class="flex">
                         <div class="justify-items-center w-1/5 grid gap-6 grid-cols-1 grid-rows-10">
                             <div class="py-2">A</div>
                             <div class="py-2">B</div>
@@ -241,7 +241,7 @@
                 </div>
                 <div class="border border-dashed border-gray-300 mt-8"></div>
                 <!-- Ticket total Price -->
-                <div class="w-5/12">
+                <div class="w-full lg:w-5/12">
                     <div class="p-6 rounded-2xl">
                         <div class="pb-4">
                             <p class="text-2xl font-semibold">Select Your Seat</p>
@@ -264,7 +264,7 @@
                                 <p class="font-semibold">Total Price</p>
                                 <p class="font-semibold">BDT <span>0</span></p>
                             </div>
-                            <div class="w-full bg-white p-2 mb-4 rounded-xl">
+                            <div class="w-full flex justify-between items-center bg-white p-2 mb-4 rounded-xl">
                                 <input type="text" name="" id="" placeholder="Have any coupon?" class="rounded-xl outline-[#1DD100] w-3/4 px-4 py-2">
                                 <button class="btn hover:text-[#1DD100] border-none bg-[#1DD100] rounded-xl text-white font-bold px-6 py-2">Apply</button>
                             </div>
